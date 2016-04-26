@@ -88,3 +88,5 @@ public class LoginActivity extends ActionBarActivity {
     }
 }
 // FALTA HACER LO DEL VIDEO 6, MEJORAR MUCHISIMO LA BASE DE DATOS
+
+///PROBANDO 1 2 3
