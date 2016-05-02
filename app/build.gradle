@@ -18,8 +18,12 @@ android {
     }
     productFlavors {
         user {
+            applicationId = "com.example.matias.loginregistrer.user"
+            versionName "1.0-user"
         }
         owner {
+            applicationId = "com.example.matias.loginregistrer.owner"
+            versionName "1.0-owner"
         }
     }
 }

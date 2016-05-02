@@ -2,8 +2,8 @@ package com.example.matias.loginregistrer;
 
 import android.app.AlertDialog;
 import android.content.Intent;
-import android.support.v7.app.ActionBarActivity;
 import android.os.Bundle;
+import android.support.v7.app.ActionBarActivity;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
@@ -53,7 +53,7 @@ public class LoginActivity extends ActionBarActivity {
                                 String name = jsonResponse.getString("name");
                                 int age = jsonResponse.getInt("age");
 
-                                Intent intent = new Intent(LoginActivity.this, UserAreaActivity.class);
+                                Intent intent = new Intent(LoginActivity.this, SecondActivity.class);
                                 intent.putExtra("name", name);
                                 intent.putExtra("username", username);
                                 intent.putExtra("age", age);
