@@ -88,5 +88,12 @@ public class LoginActivity extends ActionBarActivity {
     }
 }
 // FALTA HACER LO DEL VIDEO 6, MEJORAR MUCHISIMO LA BASE DE DATOS
-//Probando 4 5 6
-///PROBANDO 1 2 3
+// http://www.androidhive.info/2012/05/how-to-connect-android-with-php-mysql/
+
+//agregar la posibilidad de mandar un mensaje por el dueño de la cancha alos que alquilaron
+// EJ : hoy la reserva se cancela por X motivo
+
+//Ver tambien de como configurar que día el local esta abierto
+//EJ: Domingos Cerrado, El Feriado del dd/mm/aaaa esta cerrado
+
+
